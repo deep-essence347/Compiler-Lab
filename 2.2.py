@@ -1,6 +1,7 @@
 
 gram = {}
 
+def add(str):
     x = str.split("->")
     y = x[1]
     x.pop()
@@ -114,7 +115,7 @@ n = int(input("Enter No of Production: "))
 for i in range(n):
     txt=input()
     add(txt)
-   
+
 result = rem(gram)
 
 for x,y in result.items():
